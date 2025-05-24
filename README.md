@@ -109,7 +109,7 @@ e:\coding\rabbitmq\
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd rabbitmq
+   cd foomlet
    ```
 
 2. **Set up environment variables**
@@ -165,7 +165,7 @@ e:\coding\rabbitmq\
 
 ```bash
 # Build and start services
-docker-compose up --build
+docker-compose up --build -d
 
 # Stop services
 docker-compose down
